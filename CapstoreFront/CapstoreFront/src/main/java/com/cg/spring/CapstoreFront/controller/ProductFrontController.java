@@ -13,7 +13,7 @@ public class ProductFrontController {
 public ModelAndView home()
 {
 	RestTemplate rt= new RestTemplate();
-	Product p= rt.getForObject("http://localhost:9095/getproducts?id="+116,Product.class);
+	Product p= rt.getForObject("http://localhost:9095/getproducts?id="+118,Product.class);
 	ModelAndView mv= new ModelAndView();
 	mv.addObject("obj",p);
 	mv.setViewName("home");

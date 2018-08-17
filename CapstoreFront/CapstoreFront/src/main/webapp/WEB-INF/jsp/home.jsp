@@ -4,27 +4,29 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link href="css/body.css" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="css/footer.css" rel="stylesheet">
-
 </head>
 <body><br/><br/><br/>
-<center><u><h1 style="color:DodgerBlue">${obj.name}-${obj.category}</h1></u></center><br/><br/>
+<center><h2 style="color:DodgerBlue; font-size:45px;">${obj.name}-${obj.category}</h2></center><br/><br/>
 
 <div class="row">
 <div class="col-xs-12 col-sm-6">
 <!-- <div class=" hidden-xs col-sm-2"></div> -->
 
-<img src="../images/${obj.product_image_name}.png" width="600" height="263" class="img-rounded demo_img" alt="Klematis">
-
+<center><img src="../images/${obj.product_image_name}.png" width="356" height="600" class="img-rounded demo_img" alt="Klematis">
+</center>
+<br>
+<br>
 <ul class="row">
 <li class="col col-6-12">
 <button type="button" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
-</li><li class="col col-6-12">
+ </li><li class="col col-6-12">
 <button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-asterisk"></span>Buy Now</button>
 </li></ul></div>
 
@@ -46,7 +48,7 @@
 <p class="sansserif"><span class="glyphicon glyphicon-tag"></span> ${obj.specific3}</p>
 </div><br/><br/>
 
-<h2 style="color:white">Have feedback regarding this product?</h2>
+<h2 <!-- style="color:/* white */ -->">Have feedback regarding this product?</h2>
 <div class="feedback_btn">
  <button type="button" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-list-alt"></span>    Post Here!!</button>
 </div>

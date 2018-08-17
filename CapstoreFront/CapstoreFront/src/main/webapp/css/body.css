@@ -27,7 +27,7 @@ letter-spacing:0.2em;
   margin-top:5;
 }
 body{
-	background-image: url("../images/pic4.png");
+	background-image: url("../images/back.png"); 
 	background-size:cover;
 	background-attachment:fixed;
 	padding: 20px;  
@@ -36,10 +36,12 @@ body{
  demo_img{
     border: 1px solid #ddd;
     border-radius: 4px;
-   	 margin-left: 20px;
+   	margin-left: 20px;
+   	 
 	} 
 	 
 button{
+	
 	padding: 18px 8px;
     border-radius: 2px;
     /* padding: 1px; */
