@@ -32,9 +32,31 @@ public class Product {
 	private String specific2;
 	@Column(name="product_specific3")
 	private String specific3;
+	private String product_image_name;
 	
 	
 	
+	public String getProduct_image_name() {
+		return product_image_name;
+	}
+	public Product(int id, String name, String category, BigDecimal price, int discount, String size, String colour,
+			String specific1, String specific2, String specific3, String product_image_name) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.category = category;
+		this.price = price;
+		this.discount = discount;
+		this.size = size;
+		this.colour = colour;
+		this.specific1 = specific1;
+		this.specific2 = specific2;
+		this.specific3 = specific3;
+		this.product_image_name = product_image_name;
+	}
+	public void setProduct_image_name(String product_image_name) {
+		this.product_image_name = product_image_name;
+	}
 	public int getId() {
 		return id;
 	}
@@ -97,21 +119,7 @@ public class Product {
 	}
 	
 	
-	public Product(int id, String name, String category, BigDecimal price, int discount, String size, String colour,
-			String specific1, String specific2, String specific3) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.category = category;
-		this.price = price;
-		this.discount = discount;
-		this.size = size;
-		this.colour = colour;
-		this.specific1 = specific1;
-		this.specific2 = specific2;
-		this.specific3 = specific3;
-		
-	}
+	
 	public Product() {
 		super();
 	}

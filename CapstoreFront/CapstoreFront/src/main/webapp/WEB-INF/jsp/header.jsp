@@ -8,6 +8,7 @@
 <link href="css/headerdesign.css" rel="stylesheet">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link href="css/headerdesign2.css" rel="stylesheet">
+<link href="css/footer.css" rel="stylesheet">
 
 
 <title>Insert title here</title>
@@ -60,5 +61,7 @@
 
 
 </div>
+
+
 </body>
 </html>
