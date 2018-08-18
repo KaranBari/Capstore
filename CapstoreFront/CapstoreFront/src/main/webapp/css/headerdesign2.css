@@ -1,9 +1,9 @@
 @charset "ISO-8859-1";
 .header2 {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #EEEEEE;
   padding: 20px 10px;
-  
+   border-radius:10px;
 }
 
 /* Style the header links */
@@ -69,4 +69,12 @@ nextln {
   .header2-right {
     float: none;
   }
+}
+.card-pricing.popular {
+    z-index: 1;
+    border: 3px solid #007bff;
+}
+.card-pricing .list-unstyled li {
+    padding: .5rem 0;
+    color: #6c757d;
 }

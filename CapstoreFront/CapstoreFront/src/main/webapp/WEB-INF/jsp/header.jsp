@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="css/headerdesign.css" rel="stylesheet">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="css/w3.css">
 <link href="css/headerdesign2.css" rel="stylesheet">
-<link href="css/footer.css" rel="stylesheet">
 
 
 <title>Insert title here</title>
@@ -29,10 +28,10 @@
 </div>
 </search>
     
-    <a class="active" href="#home">Home</a>
-    <a href="#contact">SignIn</a>
-    <a href="#contact">SignUp</a>
-    
+    <a  href="/index">Home</a>
+    <a href="#signin">SignIn</a>
+    <a href="#signup">SignUp</a>
+  
   </div>
   </search>
   
@@ -42,10 +41,10 @@
 
 <div class="header2" >
  
-   <a class="active" href="Electronics">Electronics</a>
-    <a href="https://www.flipkart.com/mens-clothing"  >Men</a>
-    <a href="#contact" >Women</a>
-    <a href="#about"  >Furnitures</a>
+   <a class="active" href="/electronics">Electronics</a>
+    <a href="/mens"  >Mens</a>
+    <a href="/toys" >Toys</a>
+    <a href="/furnitures"  >Furnitures</a>
 </div> 
 
 
@@ -61,7 +60,5 @@
 
 
 </div>
-
-
 </body>
 </html>
