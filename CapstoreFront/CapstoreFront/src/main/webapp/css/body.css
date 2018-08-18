@@ -15,7 +15,7 @@ font-family:agency fb;
 font-weight:bold;
 letter-spacing:0.2em;
   }
-  .bg{
+  /* .bg{
 	z-index: 1px;
 	width:100%;
 	padding: 20px 100px;  
@@ -25,7 +25,7 @@ letter-spacing:0.2em;
 }
 .bg hr{
   margin-top:5;
-}
+} */
 body{
 	background-image: url("../images/back.png"); 
 	background-size:cover;
@@ -40,14 +40,14 @@ body{
    	 
 	} 
 	 
-button{
+.buttonf{
 	
 	padding: 18px 8px;
     border-radius: 2px;
-    /* padding: 1px; */
+    padding: 1px;
     width: 90%;
     text-align: center;
-}
+} 
  .highlight{
 	text-shadow: 3px 2px red;
 } 

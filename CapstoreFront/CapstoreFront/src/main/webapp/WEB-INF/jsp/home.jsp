@@ -27,9 +27,9 @@
 
 			<ul class="row">
 					<li class="col col-6-12">
-					<button type="button" class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
+					<button type="button" class="btn btn-warning btn-lg buttonf"><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
  					</li><li class="col col-6-12">
-					<button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-asterisk"></span>Buy Now</button>
+					<button type="button" class="btn btn-danger btn-lg buttonf"><span class="glyphicon glyphicon-asterisk"></span>Buy Now</button>
 					</li>
 			</ul>
 		</div>
@@ -57,7 +57,7 @@
 
 			<h2><!-- style="color:/* white */ -->"Have feedback regarding this product?</h2>
 			<div class="feedback_btn">
-			 <button type="button" class="btn btn-info btn-lg"><span class="glyphicon glyphicon-list-alt"></span>    Post Here!!</button>
+			 <button type="button" class="btn btn-info btn-lg buttonf"><span class="glyphicon glyphicon-list-alt"></span>    Post Here!!</button>
 			</div>
 		</div>
 </div>
@@ -77,8 +77,11 @@
 
 
 <br/><br/><br/><br/>
-<footer class="footer">
+ <footer class="footer">
 <center><p style="font-size:15px;"> Copyright ©2018. All rights reserved.</p></center>
-</footer>
+</footer> 
+<!-- <nav class="navbar fixed-bottom navbar-light" style="background-color: #EEEEEE;border-radius: 10px; height:45px;">
+  <a class="navbar-brand" href="#"><center><p style="font-size:15px;"> Copyright ©2018. All rights reserved.</p></center></a>
+</nav> -->
 </body>
 </html>
