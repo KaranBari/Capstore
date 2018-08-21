@@ -1,0 +1,4 @@
+'114', 'mobile', 'black', '20', 'Moto- x4', '20500.00', '5.2 inch Full HD Display', '3000 mAh Battery', '4 GB RAM | 64 GB ROM ', 'Upgradable to Android - 8.0 Oreo', 'moto-x4'
+'115', 'mobile', 'black/white/grey', '10', 'Zenfone Max Pro ', '19500.00', '5.99 inch Full HD+ Display', '5000 mAh Battery', '4 GB RAM | 64 GB ROM ', 'Qualcomm Snapdragon 636 Processor', 'zen_phone'
+'116', 'toy', 'blue', '20', 'Channel Rc Helicopter ', '1199.00', 'Width x Height: 15 cm x 8.5 cm', 'Material: Plastic', 'Battery Operated, 6 Battteries', 'Rechargeable Batteries', 'helicopter-remotetoy'
+'117', 'table', 'red/white', '10', 'Portable Laptop Table ', '749.00', '40 cm x 69 cm x 52 cm ', 'Primary Material: Plastic', 'Foldable', 'Delivery Condition: DIY(Do-It-Yourself)', 'table-mate'
